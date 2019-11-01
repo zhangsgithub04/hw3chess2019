@@ -454,5 +454,6 @@ class chess {
         game[drow][dcol] = game[srow][scol];
         game[srow][scol] = EMPTY;
         step++; // counting on how many steps.
+        // notice that legal move validation needs to be added later for a future course.
     }
 }
